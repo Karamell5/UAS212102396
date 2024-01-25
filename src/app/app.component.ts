@@ -7,8 +7,10 @@ import { RouterOutlet } from '@angular/router';
   standalone: true,
   imports: [CommonModule, RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
   title = 'UAS212102396';
+  nama = 'MUHAMMAD RAAFII';
+  nim = '212102396';
 }
